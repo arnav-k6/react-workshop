@@ -1,7 +1,15 @@
-import './App.css';
+import "./App.css";
+// import { useState } from "react";
 
 function App() {
-  return <div>Open src/App.jsx to start!</div>;
+  // const [counter, setCounter] = useState(0);
+
+  return (
+    <div className="app">
+      🎉 Start by opening src/App.jsx!
+      {/* <button onClick={() => setCounter(counter + 1)}>Increment</button> */}
+    </div>
+  );
 }
 
 export default App;
